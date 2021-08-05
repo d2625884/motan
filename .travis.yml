@@ -1,1 +1,6 @@
 language: java
+
+if: branch = master AND tag IS 1.1.4
+#branches:
+#  only:
+#  - master
