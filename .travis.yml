@@ -4,4 +4,7 @@ dist : trusty
 language: java
 on :
   branch: master
-  tags : /^v\d+\.\d+(\.\d+)?(-\S*)?$/
+#  tags : /^v\d+\.\d+(\.\d+)?(-\S*)?$/
+script: 
+  git tag -l
+  git checkout 1.1.4
