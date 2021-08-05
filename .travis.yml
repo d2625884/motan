@@ -1,6 +1,5 @@
 language: java
-jobs:
- - if: branch = master AND tag IS 1.1.4
+if: branch = master
 #branches:
 #  only:
 #  - master
