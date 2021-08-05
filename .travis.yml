@@ -4,4 +4,4 @@ dist : trusty
 language: java
 on :
   branch: master
-  tags : 1.1.4
+  tags : /^v\d+\.\d+(\.\d+)?(-\S*)?$/
