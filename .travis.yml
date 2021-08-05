@@ -1,5 +1,6 @@
 language: java
-if: branch = master AND tag = 1.1.4
+branch: master
+tags : 1.1.4
 #branches:
 #  only:
 #  - master
