@@ -4,7 +4,4 @@ dist : trusty
 language: java
 on :
   branch: master
-  tags : true
-#branches:
-#  only:
-#  - master
+  tags : 1.1.4
