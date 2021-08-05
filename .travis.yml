@@ -5,6 +5,7 @@ language: java
 on :
   branch: master
 #  tags : /^v\d+\.\d+(\.\d+)?(-\S*)?$/
-script: 
-  - git tag -l
-  - git checkout 1.1.4
+before_deploy:
+  script: 
+    - git tag -l
+    - git checkout 1.1.4
